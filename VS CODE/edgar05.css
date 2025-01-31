@@ -1,0 +1,89 @@
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    width: 90rem;
+    background:#b3b3b3;
+    padding: 2rem;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.seccion {
+    text-align: left;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.seccion h2 {
+    font-size: 2rem;
+    background: #b3b3b3;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.html5 {
+    background: #e6e6e6;
+}
+
+.html5 h2 {
+    background: #808080;
+}
+
+.css3 {
+    background: #d9d9d9;
+}
+
+.css3 h2 {
+    background:#808080;
+}
+
+.contenido {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem; 
+}
+
+.contenido img {
+    width: 10rem;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.textos p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: justify;
+}
+.resaltado {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
