@@ -1,0 +1,98 @@
+/* Configuración base para usar 1rem = 10px */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+}
+
+/* Contenedor principal */
+.contenedo1{
+    width: 90rem;
+    background: #ffffff;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+/* Encabezado */
+.encabezado {
+    background: #333;
+    color: white;
+    padding: 2rem;
+
+}
+
+.encabezado h1 {
+    font-size: 2.4rem;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.subtitulo {
+    font-size: 2rem;
+    margin: 0;
+    font-style: italic;
+    padding-top: 1rem;
+    color: darkgray;
+}
+
+/* Contenido principal */
+.contenido2 {
+    display: flex;
+}
+
+/* Biografía */
+.biografia {
+    width: 25rem;
+    background: #ddd;
+    padding: 2rem;
+    text-align: center;
+}
+
+.biografia img {
+    width: 100%;
+    border: 0.2rem solid black;
+}
+
+.biografia h2 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+.biografia p {
+    font-size: 1.4rem;
+}
+
+/* Sección de texto */
+.texto {
+    flex: 1;
+    background: #ff9933;
+    padding: 2rem;
+}
+
+.texto h2 {
+    font-size: 2rem;
+}
+
+.texto p {
+    font-size: 1.6rem;
+}
+
+/* Pie de página */
+.pie {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.pie a {
+    color: #ff9933;
+    text-decoration: none;
+}
